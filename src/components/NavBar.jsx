@@ -4,6 +4,7 @@ import { navLinks } from '../constants/index.js'
 const NavBar = () => {
     const [scrolled,setScrolled] = useState(false)
     useEffect(()=>{
+        console.log('scrolling')
         const handleScroll = () => {
             const isScrolled = window.screenY >10
             setScrolled(isScrolled)
@@ -38,7 +39,6 @@ const NavBar = () => {
                 <div className='inner'>
                     <span>Contact Me</span>
                 </div>
-
             </a>
 
         </div>

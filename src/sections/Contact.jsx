@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <section id="contact" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader title="Get In Touch With Me" sub="📧 Contact Infomation" />
+        <TitleHeader title="请与我联系" sub="📧 联系方式" />
         <div className="mt-16 grid-12-cols">
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
@@ -50,7 +50,7 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">Name</label>
+                  <label htmlFor="name">姓名</label>
                   <input
                     type="text"
                     id="name"
@@ -62,7 +62,7 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email">邮箱</label>
                   <input
                     type="text"
                     id="email"
@@ -74,7 +74,7 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="message">Message</label>
+                  <label htmlFor="message">消息</label>
                   <input
                     type="text"
                     id="message"
@@ -90,7 +90,7 @@ const Contact = () => {
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">
-                      {loading ? "Sending....." : "Send Message"}
+                      {loading ? "发送中....." : "发送信息"}
                     </p>
                     <div className="arrow-wrapper">
                       <img src="/images/arrow-down.svg" alt="arrow" />

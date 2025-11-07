@@ -54,17 +54,16 @@ const Hero = () => {
                 </span>
               </h1>
 
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>转化为真实项目</h1>
+              <h1>带来实际成果</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi,I'm Lorian, a development based in China Zhejiang Hangzhou
-              YuHang with a passion for code.
+              你好，我是Lorian，一名位于中国浙江杭州余杭的前端开发人员，对代码充满热情。
             </p>
             <Button 
             className="md:w-80 md:h-16 w-60 h-12"
             id="button"
-            text="See my Work"
+            text="查看我的作品"
             />
           </div>
         </header>

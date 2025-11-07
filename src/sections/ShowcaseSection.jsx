@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { gsap } from "gsap/gsap-core";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import TitleHeader from "../components/TitleHeader";
 gsap.registerPlugin(ScrollTrigger);
 
 const ShowcaseSection = () => {
@@ -46,6 +47,8 @@ const ShowcaseSection = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
+      <TitleHeader title="由于对前司的保密性，所以这边不用真实的，但是技术栈都是会的" sub="我的工作经历" />
+
         <div className="showcaselayout">
           {/* left */}
           <div className="first-project-wrapper" ref={project1Ref}>
@@ -54,12 +57,10 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h1 className="">
-                On-Demand Rides Made Simple with a powerful,User-Friendly App
-                called Ryde
+                通过强大的用户友好应用 Ryde 简化按需出行
               </h1>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native ,Expo,TailwindCss for a fast
-                ,user-friendly experience.
+                使用 React Native、Expo、TailwindCSS 构建的应用，提供快速、用户友好的体验。
               </p>
             </div>
           </div>
@@ -72,13 +73,13 @@ const ShowcaseSection = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>图书馆管理平台</h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7db]">
                 <img src="/images/project3.png" alt="YC Directory" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>YC 目录 - 初创公司展示应用</h2>
             </div>
           </div>
         </div>

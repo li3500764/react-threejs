@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { navLinks } from '../constants/index.js'
 
 const NavBar = () => {
@@ -18,7 +18,6 @@ const NavBar = () => {
         <div className='inner'>
             <a className='logo' href='#hero'>
                 Lorian
-
             </a>
             <nav className='desktop'>
                 <ul>
@@ -37,7 +36,7 @@ const NavBar = () => {
             </nav>
             <a href='#contact' className='contact-btn'>
                 <div className='inner'>
-                    <span>Contact Me</span>
+                    <span>联系我</span>
                 </div>
             </a>
 
